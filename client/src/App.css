@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+.appbar{
+  background: #2f263d!important;
+}
+.appbar-logo{
+  margin-left:10px;
+  margin-right:10px;
+}

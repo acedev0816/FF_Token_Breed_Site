@@ -1,0 +1,12 @@
+.appbar-title{
+    flex-grow: 1;
+}
+.net-select{
+    display:flex;
+    align-items: center;
+    width:110px!important;
+}
+.appbar{
+    background:transparent !important;
+    box-shadow: none!important;
+}

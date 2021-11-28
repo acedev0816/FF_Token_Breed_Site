@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'ARCO'; /*a name to be used later*/
+  src: local('ARCO'), url(fonts/ARCO_1.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Impact'; /*a name to be used later*/
+  src: local('Impact'), url(fonts/Impact.ttf) format('opentype');
+}
+.logo-container {
+  width:100%;
+  display:flex!important;
+  justify-content:center!important;
+}
+.logo{
+  margin-top:10vh;
+  margin-bottom:3vh;
+  width:80%;
+  max-width: 200px;
+  display:flex;
+}
+.candy-machine-error {
+  margin-top: 5vh !important;
+  text-align: center;
+  font-family: cursive !important;
+}
+.red{
+  color:red!important;
+}
+.black{
+  color:black!important;
+}
+.subtitle {
+  text-align: center;
+  font-family: ARCO !important;
+}
+.connect-wallet {
+  text-align: center;
+  font-family: Impact !important;
+}
+
+.card {
+  margin-top: 2vh;
+  width: 100%;
+  height:60vh;
+  position:relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-back{
+  width:100%;
+  height:100%;
+  left:0px;
+  position:absolute;
+  z-index: -1;
+}
+.card-image{
+  margin-top:70px;
+  width:64%;
+  height:45%;
+  border: 1px solid gray;
+  border-radius:5px;
+}
+
+
+.coin-card{
+  margin-top:3vh;
+  width: 50%;
+}
+
+.mint-button {
+    margin-top:10px!important;
+    width: 64%;
+    justify-content:center!important;
+    background-color: #3f51b5!important;
+    font-family: Impact !important;
+}
+.built-on-solana{
+    display:flex;
+    justify-content:center;
+    align-items: center!important;
+}
+.built-on-solana .bottom-title{
+    margin-top:0px!important;
+} 
+.built-on-solana .MuiAvatar-circular{
+    margin-left:10px;
+    margin-right:5px;
+}
+
+.item-select{
+    width:64%;
+    font-family: Impact!important;
+    border: 1px solid gray;
+}
+.row{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+}
+.MuiAvatar-circular{
+  margin-right:10px;
+  margin-left:5px;
+}
+.MuiSelect-selectMenu{
+  display:flex!important;
+  align-items:center;
+}
+.MuiInput-input
+{
+  color:#333!important;
+  padding-left:5px!important;
+
+}
+
+.MuiCircularProgress-colorPrimary {
+  color: #4cdb61!important;
+}
